@@ -1,3 +1,8 @@
+"""
+Author: Allie Peterson
+Disclaimer: This is showing a misleading story. See the 'Source of Truth' section in the README.
+"""
+
 import dash_html_components as html
 import dash_core_components as dcc
 
