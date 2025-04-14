@@ -3,8 +3,7 @@ Author: Allie Peterson
 Disclaimer: This is showing a misleading story. See the 'Source of Truth' section in the README.
 """
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc, html
 from dash.dependencies import Input, Output
 from utils.data_loader import load_and_process_data
 from utils.figures import create_bar_chart, create_male_part_time_chart, create_male_unemployment_chart
